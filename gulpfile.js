@@ -18,6 +18,7 @@ var gulp = require("gulp"),
     postcss = require("gulp-postcss"),
     autoprefixer = require("autoprefixer"),
     cssnano = require("cssnano"),
+    include = require("gulp-include"),
     browserSync = require("browser-sync").create();
 
 function style() {
@@ -35,6 +36,9 @@ function style() {
 function html() {
   return gulp
     .src('src/*.html')
+    .pipe(include({
+      extensions: 'html'
+    }))
     .pipe(gulp.dest('./build'))
     .pipe(browserSync.stream());
 }
