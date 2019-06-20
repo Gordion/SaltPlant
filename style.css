@@ -1,0 +1,227 @@
+
+body {
+  min-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header-exc {
+  position: relative;
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+}
+.coat {
+  max-width: 100px;
+  max-height: 60px;
+  position: relative;
+  /* margin-left: auto;
+  margin-right: auto; */
+  right: 3.5%;
+
+}
+
+.user {
+  max-width: 35px;
+  max-height: 35px;
+  padding: 5px;
+}
+
+.vl {
+  border-left: 1px solid #dadada;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.lang {
+  font-weight: bold;
+  padding: 5px;
+  position: relative;
+  font-size: 0.8rem;
+}
+
+.user-inf-exc {
+  display: flex;
+  align-items: center;
+}
+
+.coat-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  position: relative;
+}
+
+.menu-exc {
+  max-width: 25px;
+  max-height: 25px;
+  padding: 10px;
+}
+
+.title-exc {
+  background-color: #dadada;
+  height: 25vh;
+  min-width: 100%;
+  color: black;
+  font-size: 1.5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.title-text {
+
+
+}
+
+.menu-bar-exc {
+  width: 6%;
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 30px;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+
+}
+
+.like-img {
+  width: 25px;
+  height: 25px;
+}
+
+.share-img {
+  width: 25px;
+  height: 25px;
+}
+
+.text-holder {
+width: 100%;
+text-align: center;
+}
+
+.text-box {
+  border-left: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  height: 50px;
+  width: 298px;
+}
+
+.basic-placeholder {
+margin-left: 30px;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+.dummy {
+  align-items: center;
+  display: flex;
+}
+
+.text-box {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.buy {
+    background-color: #f19106;
+    width: 54%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dadada;
+}
+
+.buy-text {
+
+}
+
+.like {
+  width: 23%;
+  border: 1px solid #dadada;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share {
+  width: 23%;
+  border: 1px solid #dadada;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitle {
+font-weight: 500;
+}
+
+.theater-exc {
+  display: flex;
+  justify-content:center;
+  width: 72%;
+}
+
+.pre-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.first-raw {
+display: flex;
+justify-content:center;
+width: 95%;
+}
+
+.second-raw {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 48.5%;
+}
+.unlock {
+  background-color: #e6342a;
+  color: white;
+  margin-left: 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+}
+
+.un-but {
+  width: 65%;
+  text-align: center;
+}
+
+.main-exc {
+  display: block;
+}
+
+.sub-div1 {
+  display: flex;
+  justify-content: center;
+  width: 44.5%;
+}
+
+.sub-div2 {
+  display: flex;
+  justify-content: center;
+  width: 40.5%;
+}
