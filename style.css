@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 
 body {
   min-width: 100%;
@@ -54,8 +58,8 @@ body {
 }
 
 .menu-exc {
-  max-width: 25px;
-  max-height: 25px;
+  width: 50px;
+  height: 50px;
   padding: 10px;
 }
 
@@ -86,7 +90,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 300px;
+  margin: 0 -1px;
   height: 30px;
 }
 
@@ -111,21 +115,34 @@ text-align: center;
 }
 
 .text-box {
-  border-left: 1px solid #dadada;
-  border-right: 1px solid #dadada;
   height: 50px;
-  width: 298px;
+  width: 300px;
+}
+
+.basic-exc {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1020px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .basic-placeholder {
-margin-left: 30px;
-margin-top: 20px;
-margin-bottom: 30px;
+  /* margin-left: 30px; */
+  margin: 20px 10px 30px;
+  width: 320px;
+  border: 1px solid #dadada;
+  border-bottom: none;
 }
 
-.dummy {
+.photo-holder {
   align-items: center;
   display: flex;
+}
+
+.photo-exc {
+  width: 100%;
+  height: auto;
 }
 
 .text-box {
@@ -136,13 +153,13 @@ margin-bottom: 30px;
 }
 
 .buy {
-    background-color: #f19106;
-    width: 54%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #dadada;
+  background-color: #f19106;
+  /* width: calc(100% - 70px - 70px); */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
 }
 
 .buy-text {
@@ -150,8 +167,9 @@ margin-bottom: 30px;
 }
 
 .like {
-  width: 23%;
-  border: 1px solid #dadada;
+  width: 70px;
+  border-top: 1px solid #c6c6c6;
+  border-bottom: 1px solid #c6c6c6;
   height: 100%;
   display: flex;
   align-items: center;
@@ -159,8 +177,8 @@ margin-bottom: 30px;
 }
 
 .share {
-  width: 23%;
-  border: 1px solid #dadada;
+  width: 70px;
+  border: 1px solid #c6c6c6;
   height: 100%;
   display: flex;
   align-items: center;
@@ -169,12 +187,15 @@ margin-bottom: 30px;
 
 .subtitle {
 font-weight: 500;
+margin-left: 10px;
 }
 
 .theater-exc {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
   display: flex;
-  justify-content:center;
-  width: 72%;
+  flex-wrap: wrap;
 }
 
 .pre-buttons {
@@ -182,18 +203,15 @@ font-weight: 500;
   align-items: center;
 }
 
-.first-raw {
-display: flex;
-justify-content:center;
-width: 95%;
+/* .first-raw {
+  display: flex;
+  justify-content: center;
 }
 
 .second-raw {
   display: flex;
-  justify-content:center;
-  align-items: center;
-  width: 48.5%;
-}
+  justify-content: center;
+} */
 .unlock {
   background-color: #e6342a;
   color: white;
@@ -205,23 +223,33 @@ width: 95%;
   padding: 3px;
 }
 
-.un-but {
+/* .un-but {
   width: 65%;
   text-align: center;
-}
+} */
 
 .main-exc {
   display: block;
 }
 
 .sub-div1 {
-  display: flex;
-  justify-content: center;
-  width: 44.5%;
-}
+  /* display: flex;
+  justify-content: center; */
+  }
 
 .sub-div2 {
-  display: flex;
-  justify-content: center;
-  width: 40.5%;
+  /* display: flex;
+  justify-content: center; */
+}
+
+@media (max-width: 1024px) {
+
+  .basic-exc {
+    width: 720px;
+  }
+
+  .basic-placeholder {
+    width: 360px;
+  }
+
 }
