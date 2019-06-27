@@ -114,11 +114,6 @@ width: 100%;
 text-align: center;
 }
 
-.text-box {
-  height: 50px;
-  width: 300px;
-}
-
 .basic-exc {
   margin-left: auto;
   margin-right: auto;
@@ -141,20 +136,23 @@ text-align: center;
 }
 
 .photo-exc {
+  /* width: 100%;
+  height: auto; */
   width: 100%;
-  height: auto;
+  max-width: auto;
+  height: 280px;
 }
 
 .text-box {
   align-items: center;
   justify-content: center;
   display: flex;
-
+  height: 50px;
+  width: 300px;
 }
 
 .buy {
   background-color: #f19106;
-  /* width: calc(100% - 70px - 70px); */
   height: 100%;
   display: flex;
   align-items: center;
@@ -252,4 +250,119 @@ margin-left: 10px;
     width: 360px;
   }
 
+  .basic-placeholder-min {
+    width: 180px;
+  }
+}
+
+
+
+/*---------------Minified placeholder---------------*/
+.buttons-min {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -1px;
+  height: 30px;
+}
+
+
+.like-img-min {
+  width: 25px;
+  height: 25px;
+}
+
+.share-img-min {
+  width: 25px;
+  height: 25px;
+}
+
+.text-holder-min {
+width: 100%;
+text-align: center;
+}
+
+.text-box-min {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 50px;
+  width: 200px;
+}
+
+.basic-placeholder-min {
+  margin: 20px 10px 30px;
+  width: 200px;
+  border: 1px solid #dadada;
+  border-bottom: none;
+}
+
+.photo-holder-min {
+  align-items: center;
+  display: flex;
+}
+
+.photo-exc-min {
+  width: 100%;
+  height: auto;
+}
+
+.like-min {
+  width: 100px;
+  border-top: 1px solid #c6c6c6;
+  border-bottom: 1px solid #c6c6c6;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-min {
+  width: 100px;
+  border: 1px solid #c6c6c6;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.basic-exc-min {
+  margin-left: auto;
+  margin-right: auto;
+  width: 660px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*----------------------Comments--------------*/
+
+.name-comments {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.username-com {
+  padding-right: 10px;
+}
+
+.text-comments {
+  font-size: 0.7rem;
+  padding-left: 10px;
+}
+
+.description-text {
+  margin-left: 10px;
+}
+
+
+
+/*-----------------Buy excursion---------*/
+
+.buy-excursion {
+position: fixed;
+}
+
+.desc-options {
+  text-align: center;
 }
