@@ -240,21 +240,6 @@ margin-left: 10px;
   justify-content: center; */
 }
 
-@media (max-width: 1024px) {
-
-  .basic-exc {
-    width: 720px;
-  }
-
-  .basic-placeholder {
-    width: 360px;
-  }
-
-  .basic-placeholder-min {
-    width: 180px;
-  }
-}
-
 
 
 /*---------------Minified placeholder---------------*/
@@ -329,7 +314,7 @@ text-align: center;
 .basic-exc-min {
   margin-left: auto;
   margin-right: auto;
-  width: 660px;
+  width: 670px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -351,9 +336,9 @@ text-align: center;
   padding-left: 10px;
 }
 
-.description-text {
+/* .description-text {
   margin-left: 10px;
-}
+} */
 
 
 
@@ -361,8 +346,117 @@ text-align: center;
 
 .buy-excursion {
 position: fixed;
+background-color: white;
+right: 5%;
+top: 25%;
 }
 
 .desc-options {
   text-align: center;
+}
+
+.square-hex {
+  color: orange;
+  padding-right: 5px;
+  }
+
+
+/*---------------------Special excursion---------------*/
+
+.basic-placeholder-spc {
+  width: 320px;
+  border: 1px solid #dadada;
+  border-bottom: none;
+  margin: 0 auto;
+}
+
+.main-exc-buy {
+  display: block;
+  width: 70%;
+}
+
+.buy-spc {
+  /* background-color: #f19106; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  border: 3px solid #f19106;
+}
+
+.text-box-spc {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 50px;
+  width: 318px;
+  border-bottom: 1px solid #dadada;
+}
+
+.test-exc {
+  display: flex;
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .buy-excursion {
+  position: relative;
+  background-color: white;
+  right: 0;
+  top: 0;
+  }
+  .test-exc {
+    display: block;
+  }
+  .main-exc-buy {
+    display: block;
+    width: 100%;
+  }
+  .basic-placeholder-spc {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .basic-exc {
+    width: 720px;
+  }
+
+  .basic-placeholder {
+    width: 360px;
+  }
+
+  .basic-placeholder-min {
+    width: 200px;
+  }
+
+  .buy-excursion {
+  position: relative;
+  background-color: white;
+  right: 0;
+  top: 0;
+  }
+  .test-exc {
+    display: block;
+  }
+
+  .basic-placeholder-spc {
+    margin: 0 auto;
+  }
+  .main-exc-buy {
+    display: block;
+    width: 100%;
+  }
+
+  .basic-exc-min {
+    display: block;
+    width:50vh;
+  }
+
+  .basic-placeholder-min {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
 }
