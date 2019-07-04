@@ -345,10 +345,21 @@ text-align: center;
 /*-----------------Buy excursion---------*/
 
 .buy-excursion {
-position: fixed;
-background-color: white;
-right: 5%;
-top: 25%;
+  position: fixed;
+  background-color: white;
+  right: 10%;
+  top: 25%;
+}
+
+.side-block {
+  position: absolute;
+  background-color: white;
+  right: 10%;
+  top: 25%;
+}
+
+.side-block.side-block-fixed {
+  position: fixed;
 }
 
 .desc-options {
@@ -398,6 +409,30 @@ top: 25%;
   display: flex;
 }
 
+/*-----------Food----------*/
+.basic-exc-food {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1020px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*map*/
+.basic-placeholder-map {
+  border: 1px solid #dadada;
+  border-bottom: none;
+  margin: 0 auto;
+}
+.buy-map {
+  background-color: #f19106;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  /* border: 3px solid #f19106; */
+}
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   .buy-excursion {
@@ -420,8 +455,17 @@ top: 25%;
 
 @media (max-width: 1024px) {
 
+  .text-box {
+    width: auto;
+  }
+
   .basic-exc {
     width: 720px;
+  }
+
+  .basic-exc-food {
+    width: 100%;
+    justify-content: center;
   }
 
   .basic-placeholder {
@@ -452,11 +496,15 @@ top: 25%;
 
   .basic-exc-min {
     display: block;
-    width:50vh;
+    width: 100%;
   }
 
   .basic-placeholder-min {
     margin: 0 auto;
     margin-bottom: 10px;
+  }
+
+  .description-text {
+    padding: 30px;
   }
 }
