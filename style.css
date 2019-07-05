@@ -434,6 +434,29 @@ text-align: center;
   /* border: 3px solid #f19106; */
 }
 
+.description-text-place {
+  width: 300px;
+  padding-left: 5px;
+}
+
+.subtitle-place {
+  font-size: 1.5rem;
+  padding-left: 5px;
+}
+
+.gallery {
+  margin-left: auto;
+  margin-right: auto;
+  width: 670px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-gallery {
+  margin: 10px;
+  width: 200px;
+}
+
 @media (min-width: 1025px) and (max-width: 1280px) {
   .buy-excursion {
   position: relative;
@@ -451,6 +474,34 @@ text-align: center;
   .basic-placeholder-spc {
     margin: 0 auto;
   }
+  .gallery {
+    width: 700px;
+    justify-content: center;
+  }
+  .side-block.side-block-fixed {
+  position: relative;
+  background-color: white;
+  right: 0;
+  top: 0;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 10px;
+  }
+  .description-text-place {
+    width: 100%;
+  }
+}
+
+.product-name {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.product-cost {
+  text-align: center;
+  font-size: 1.05rem;
+  color: #f19107;
 }
 
 @media (max-width: 1024px) {
@@ -506,5 +557,24 @@ text-align: center;
 
   .description-text {
     padding: 30px;
+  }
+
+  .side-block.side-block-fixed {
+  position: relative;
+  background-color: white;
+  right: 0;
+  top: 0;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 10px;
+  }
+
+  .description-text-place {
+    width: 100%;
+  }
+
+  .gallery {
+    width: 500px;
+    justify-content: center;
   }
 }
