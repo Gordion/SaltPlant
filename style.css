@@ -457,7 +457,173 @@ text-align: center;
   width: 200px;
 }
 
+
+/*--------------Counter----------------*/
+
+.buy-holder-counter-cost {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buy-holder {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.buy-holder-image {
+}
+
+.buy-holder-textblock {
+  display:block;
+  /* border: 1px solid black; */
+  /* height: 300px; */
+  padding: 0 10px 0;
+}
+
+.buy-holder-counter-button {
+  width: 200px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+
+  /* position: relative;
+  bottom: 10%; */
+}
+
+.buy-holder-counter-cost {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy-holder-counter-cost-left {
+  display: flex;
+  align-items: center;
+}
+
+.buy-holder-counter-cost-right {
+  display: flex;
+  align-items: center;
+}
+
+.buy-holder-counter-cost-left-text {
+  padding-left: 10px
+}
+
+/* .buy-holder-image-photo {
+  min-width: 400px;
+  max-width: 100%;
+  height: auto;
+} */
+
+.amount {
+  text-align: center;
+  width: 30px;
+}
+
+.buy-amount {
+  margin-right: 40px;
+}
+
+.buy-holder-counter {
+  /* margin-top: 45px; */
+  position: relative;
+  top: 13%;
+}
+
+.buy-holder-description {
+  /* width: 50%; */
+    border-bottom: solid 1px #dadada;
+    padding-bottom: 10px;
+}
+
+.buy-holder-titleCost {
+  display: flex;
+  justify-content: space-between;
+
+  /* width: 250px; */
+}
+
+.buy-holder-element {
+  margin-top: 0;
+}
+
+
+.buy-holder-title {
+  /* width: 170px; */
+}
+
+.buy-holder-cost {
+}
+
+.buy-holder-link {
+  text-decoration: none;
+  color: black;
+}
+
+.buy-holder-link:hover {
+  color: #dadada;
+}
+
+.plus {
+padding: 3px;
+font-size: 1.5rem;
+user-select: none;
+color: #f19106;
+}
+
+.minus {
+  padding: 3px;
+  font-size: 2rem;
+  user-select: none;
+  color: #f19106;
+}
+
+
+.plus:hover {
+  cursor: pointer;
+}
+
+.minus:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 1281px) and (max-width: 1384px) {
+  /* .buy-holder {
+  width: 60%;
+  } */
+
+  .buy-holder-image-photo {
+    width: 400px;
+    height: 255px;
+  }
+
+  .buy-holder-counter {
+    top: 0;
+  }
+
+}
+
 @media (min-width: 1025px) and (max-width: 1280px) {
+
+  .buy-holder {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-bottom: 15px;
+  }
+
+  /* .buy-holder-image-photo {
+    width: 400px;
+    height: 300px;
+  } */
+
+  .buy-holder-counter {
+    top: 0;
+  }
+
+
   .buy-excursion {
   position: relative;
   background-color: white;
@@ -505,6 +671,30 @@ text-align: center;
 }
 
 @media (max-width: 1024px) {
+
+  .buy-holder {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-bottom: 15px;
+  }
+
+  /* .buy-holder-image-photo {
+    width: 400px;
+    height: 255px;
+  } */
+
+  .buy-holder-counter {
+    top: 0;
+  }
+
+  .buy-holder-titleCost {
+    display: flex;
+    justify-content: space-between;
+
+    /* width: 250px; */
+  }
+
 
   .text-box {
     width: auto;
