@@ -16,8 +16,8 @@ body {
   justify-content: space-between;
 }
 .coat {
-  max-width: 100px;
-  max-height: 60px;
+  width: 200px;
+  height: 60px;
   position: relative;
   /* margin-left: auto;
   margin-right: auto; */
@@ -41,7 +41,7 @@ body {
   font-weight: bold;
   padding: 5px;
   position: relative;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .user-inf-exc {
@@ -610,6 +610,165 @@ color: #f19106;
   animation: open-menu 0.5s ease-in-out;
 }
 
+/*--MAIN--*/
+
+.title-exc-main {
+    /* height: 300px; */
+    height: 300px;
+    max-width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 5px 0; */
+}
+
+.title-exc-main-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url(images/street-lamp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+
+.square-hex-menu {
+  background-color: orange;
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 20px;
+  height: 20px;
+  }
+
+  .menu-el-name {
+    width: 100px;
+    text-align: center;
+  }
+
+  .main-menu-bar-el {
+    border: 1px solid orange;
+    background-color: white;
+  }
+
+  .main-menu-bar {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .main-exc-menu {
+  }
+
+  .main-exc-mp {
+    margin-top: -115px;
+    position: relative;
+  }
+  .main-theater {
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 10px 5px 0;
+  }
+
+  .main-theater-background {
+    position: relative;
+    margin: 0 auto;
+    height: 509px;
+    width: 1200px;
+    background-image: url(images/illustration-th-1200px.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .more {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .basic-placeholder-mp {
+    /* margin-left: 30px; */
+    margin: 20px 10px 30px;
+    width: 500px;
+    border-bottom: none;
+    font-size: 1rem;
+  }
+
+  .buy-text-mp {
+    color: black;
+  }
+
+.main-theater-mp {
+  position: absolute;
+  right: 120px;
+  top: 150px;
+}
+
+.text-box-mp {
+  /* align-items: center;
+  justify-content: center;
+  display: flex; */
+}
+
+.share-like-mp {
+  padding: 10px;
+}
+
+.text-holder-mp {
+width: 100%;
+}
+
+.main-theater-subtext-mp {
+color: orange;
+font-size: 0.8rem;
+}
+
+.main-theater-title-mp {
+
+}
+
+.main-theater-titles {
+
+}
+
+.main-slider-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  width: 65%;
+}
+
+.main-slider-holder {
+
+}
+
+.more-slider {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  border: 1px solid orange;
+}
+
+.main-slider-sub-title {
+  font-size: 1.5rem;
+}
+
 @keyframes open-menu {
   0% {
     opacity: 0;
@@ -636,8 +795,8 @@ color: #f19106;
 }
 
 .menu-logo {
-width: 20px;
-height: 20px;
+width: 30px;
+height: 30px;
 margin-right: 10px;
 margin-top: 10px;
 }
@@ -728,6 +887,27 @@ margin-top: 10px;
 
 @media (min-width: 1025px) and (max-width: 1280px) {
 
+  /* .main-theater-titles {
+    position: relative;
+    left: 200px;
+  }
+
+  .basic-placeholder-mp {
+    position: relative;
+    left: 200px;
+  } */
+
+  .main-theater-mp {
+    right: 0;
+    top: 150px;
+  }
+
+  .main-theater-background {
+    background-image: url(images/illustration-ch.png);
+    height: 500px;
+    width: 900px;
+  }
+
   .buy-holder {
     display: flex;
     flex-wrap: wrap;
@@ -791,7 +971,18 @@ margin-top: 10px;
   color: #f19107;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 861px) and (max-width: 1024px) {
+
+  .main-theater-mp {
+    right: 0;
+    top: 150px;
+  }
+
+  .main-theater-background {
+    background-image: url(images/illustration-ch.png);
+    height: 500px;
+    width: 900px;
+  }
 
   .buy-holder {
     display: flex;
@@ -888,4 +1079,289 @@ margin-top: 10px;
     width: 500px;
     justify-content: center;
   }
+
+  .main-menu-bar {
+    width: 300px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 860px) {
+  .main-theater-background {
+    background-image: url(images/illustration-mob.jpg);
+    height: 500px;
+    width: 585px;
+  }
+
+  .main-theater-mp {
+    right: 0;
+    top: 150px;
+  }
+
+  .main-theater-overlay {
+    opacity:    0.5;
+    background-color: #000;
+    width:      100%;
+    height:     100%;
+    top:        0;
+    left:       0;
+    position:   absolute;
+  }
+
+  .overlay-theater {
+      display: block;
+  }
+
+  /* .main-theater-titles {
+      position: relative;
+      right: 100px;
+  }
+
+  .basic-placeholder-mp {
+    position: relative;
+    left: 200px;
+  } */
+
+
+  .buy-holder {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-bottom: 15px;
+  }
+
+  /* .buy-holder-image-photo {
+    width: 400px;
+    height: 255px;
+  } */
+
+  .buy-holder-counter {
+    top: 0;
+  }
+
+  .buy-holder-titleCost {
+    display: flex;
+    justify-content: space-between;
+
+    /* width: 250px; */
+  }
+
+
+  .text-box {
+    width: auto;
+  }
+
+  .basic-exc {
+    width: 720px;
+  }
+
+  .basic-exc-food {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .basic-placeholder {
+    width: 360px;
+  }
+
+  .basic-placeholder-min {
+    width: 200px;
+  }
+
+  .buy-excursion {
+  position: relative;
+  background-color: white;
+  right: 0;
+  top: 0;
+  }
+  .test-exc {
+    display: block;
+  }
+
+  .basic-placeholder-spc {
+    margin: 0 auto;
+  }
+  .main-exc-buy {
+    display: block;
+    width: 100%;
+  }
+
+  .basic-exc-min {
+    display: block;
+    width: 100%;
+  }
+
+  .basic-placeholder-min {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .description-text {
+    padding: 30px;
+  }
+
+  .side-block.side-block-fixed {
+  position: relative;
+  background-color: white;
+  right: 0;
+  top: 0;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 10px;
+  }
+
+  .description-text-place {
+    width: 100%;
+  }
+
+  .gallery {
+    width: 500px;
+    justify-content: center;
+  }
+
+  .main-menu-bar {
+    width: 300px;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+  .main-theater-background {
+    background-image: url(images/illustration-mob.jpg);
+    height: 410px;
+    width: 480px;
+  }
+
+  .main-theater-mp {
+    right: 0;
+    left: 10px;
+    top: 50px;
+
+  }
+
+  .main-theater-overlay {
+    opacity:    0.5;
+    background-color: #000;
+    width:      100%;
+    height:     100%;
+    top:        0;
+    left:       0;
+    position:   absolute;
+  }
+
+  .overlay-theater {
+      display: block;
+  }
+
+  /* .main-theater-titles {
+      position: relative;
+      right: 100px;
+  }
+
+  .basic-placeholder-mp {
+    position: relative;
+    left: 200px;
+  } */
+
+
+  .buy-holder {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-bottom: 15px;
+  }
+
+  /* .buy-holder-image-photo {
+    width: 400px;
+    height: 255px;
+  } */
+
+  .buy-holder-counter {
+    top: 0;
+  }
+
+  .buy-holder-titleCost {
+    display: flex;
+    justify-content: space-between;
+
+    /* width: 250px; */
+  }
+
+
+  .text-box {
+    width: auto;
+  }
+
+  .basic-exc {
+    width: 720px;
+  }
+
+  .basic-exc-food {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .basic-placeholder {
+    width: 360px;
+  }
+
+  .basic-placeholder-min {
+    width: 200px;
+  }
+
+  .buy-excursion {
+  position: relative;
+  background-color: white;
+  right: 0;
+  top: 0;
+  }
+  .test-exc {
+    display: block;
+  }
+
+  .basic-placeholder-spc {
+    margin: 0 auto;
+  }
+  .main-exc-buy {
+    display: block;
+    width: 100%;
+  }
+
+  .basic-exc-min {
+    display: block;
+    width: 100%;
+  }
+
+  .basic-placeholder-min {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .description-text {
+    padding: 30px;
+  }
+
+  .side-block.side-block-fixed {
+  position: relative;
+  background-color: white;
+  right: 0;
+  top: 0;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 10px;
+  }
+
+  .description-text-place {
+    width: 100%;
+  }
+
+  .gallery {
+    width: 500px;
+    justify-content: center;
+  }
+
+  .main-menu-bar {
+    width: 300px;
+  }
+
 }
