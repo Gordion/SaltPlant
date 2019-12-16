@@ -6,13 +6,70 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet" />
     <link href="normalize.css" rel="stylesheet" />
     <link href="icons.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link href="style.css" rel="stylesheet" />
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="script.js"></script>
+    <script src="slider.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
   </head>
   <body>
     <header class="header-exc">
       <div class="menu-bar-exc">
         <img class="menu-exc" src="images/menu.png" alt="">
         <div class="vl"></div>
+        <div class="overlay">
+
+        </div>
+
+        <div class="menu-main">
+
+
+          <div class="menu-title">
+            <p>у ньому вся сіль</p>
+          </div>
+          <ul class="menu-list">
+            <li><a href="main.html">Про Дрогобич</a></li>
+            <li><a href="needTo.html">Тільки в Дрогобичі</a></li>
+            <li><a href="locations.html">Особливі локації</a></li>
+
+            <li><a href="excursion.html">Екскурсії</a></li>
+            <li><a href="thematic-map.html">Тематичні карти</a></li>
+            <li><a href="street-museum.html">Вуличний музей</a>
+            <li><a href="souvenirs.html">Сувеніри</a></li>
+            <li><a href="food.html">Їжа</a></li>
+            <li><a href="region.html">Регіон</a></li>
+          </ul>
+          <div class="menu-cross">
+            <span>&times;</span>
+          </div>
+          <ul class="menu-side">
+            <li><a href="http://poizdato.net/rozklad-po-stantsii/drohobych/">Як доїхати?</a></li>
+            <li><a href="http://drohobych-rda.gov.ua/15/">Туристична картина</a></li>
+
+            <li><a href="#">Прокласти маршрут</a></li>
+            <li><a href="#">Події</a></li>
+
+            <li><a href="https://ru-ru.facebook.com/velo.drohobych/">ВелоДрогобич</a></li>
+            <li><a href="partners.html">Партнери</a></li>
+
+            <li><a href="identic.html">Айдентика міста</a></li>
+
+            <li><a href="https://drohobych-rada.gov.ua/%d0%bf%d1%80%d0%b8%d0%b9%d0%bc%d0%b0%d0%bb%d1%8c%d0%bd%d1%8f/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d0%b8/">Контакти</a></li>
+          </ul>
+          <div class="menu-links">
+            <img class="menu-logo" src="images/instagram.png" alt="">
+            <img class="menu-logo" src="images/facebook.png" alt="">
+            <img class="menu-logo" src="images/youtube.png" alt="">
+          </div>
+
+        </div>
       </div>
       <div class="coat-div">
         <img class="coat" src="images/cityLogo.png" alt="">
@@ -29,63 +86,138 @@
     <div class="main-exc-mp">
       <div class="main-exc-menu">
         <div class="main-menu-bar">
-          <div class="main-menu-bar-el">
-            <div class="square-hex-menu"></div>
+          <a href="needTo.html" class="main-menu-bar-el">
+            <div class="square-hex-menu"><img src="images\tilky_v_drohobychi.svg" alt=""></div>
             <p class="menu-el-name">Тільки в Дрогобичі</p>
-          </div>
-          <div class="main-menu-bar-el">
-            <div class="square-hex-menu"></div>
-            <p class="menu-el-name">Тільки в Дрогобичі</p>
-          </div>
-          <div class="main-menu-bar-el">
-            <div class="square-hex-menu"></div>
-            <p class="menu-el-name">Тільки в Дрогобичі</p>
-          </div>
-          <div class="main-menu-bar-el">
-            <div class="square-hex-menu"></div>
-            <p class="menu-el-name">Тільки в Дрогобичі</p>
-          </div>
-          <div class="main-menu-bar-el">
-            <div class="square-hex-menu"></div>
-            <p class="menu-el-name">Тільки в Дрогобичі</p>
-          </div>
-          <div class="main-menu-bar-el">
-            <div class="square-hex-menu"></div>
-            <p class="menu-el-name">Тільки в Дрогобичі</p>
-          </div>
-          <div class="main-menu-bar-el">
-            <div class="square-hex-menu"></div>
-            <p class="menu-el-name">Тільки в Дрогобичі</p>
-          </div>
-          <div class="main-menu-bar-el">
-            <div class="square-hex-menu"></div>
-            <p class="menu-el-name">Тільки в Дрогобичі</p>
-          </div>
+          </a>
+          <a href="locations.html" class="main-menu-bar-el">
+            <div class="square-hex-menu"><img src="images\osoblyvi_lokatsii.svg" alt=""></div>
+            <p class="menu-el-name">Особливі локації</p>
+          </a>
+          <a href="excursion.html" class="main-menu-bar-el">
+            <div class="square-hex-menu"><img src="images\excursii.svg" alt=""></div>
+            <p class="menu-el-name">Екскурсії</p>
+          </a>
+          <a href="thematic-map.html" class="main-menu-bar-el">
+            <div class="square-hex-menu"><img src="images\tematychni_karty.svg" alt=""></div>
+            <p class="menu-el-name">Тематичні карти</p>
+          </a>
+          <a href="street-museum.html" class="main-menu-bar-el">
+            <div class="square-hex-menu"><img src="images\vulychnyi_muzey.svg" alt=""></div>
+            <p class="menu-el-name">Вуличний музей</p>
+          </a>
+          <a href="souvenirs.html"class="main-menu-bar-el">
+            <div class="square-hex-menu"><img src="images\suveniry.svg" alt=""></div>
+            <p class="menu-el-name">Сувеніри</p>
+          </a>
+          <a href="food.html" class="main-menu-bar-el">
+            <div class="square-hex-menu"><img src="images\yizha.svg" alt=""></div>
+            <p class="menu-el-name">Їжа</p>
+          </a>
+          <a href="region.html" class="main-menu-bar-el">
+            <div class="square-hex-menu"><img src="images\region.svg" alt=""></div>
+            <p class="menu-el-name">Регіон</p>
+          </a>
         </div>
       </div>
-      <!-- <div class="main-slider">
+       <div class="main-slider">
           <p class="main-slider-title">Варто відвідати</p>
 
-          <div class="basic-placeholder-mp">
-            <div class="text-box-mp">
-              <span class="main-slider-sub-title">Церква Воздвиження Святого Хреста</span>
-              <p class="main-slider-text-holder-mp">
-              </p>
+          <div class="slider2" style="">
+            <div class="slider-placeholder">
+              <div class="slider-placeholder-photo">
+                <img style="width: 450px; height: 360px;"src="images\christ.jpg" alt="">
+              </div>
+              <div class="slider-placeholder-main">
+                <p class="main-theater-title-slider">Церква Воздвиження Чесного Хреста</p>
+                <div class="basic-placeholder-mp">
+                  <div class="text-box-mp">
+                    <p class="text-holder-slider">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Excepteur sint occaecat cupidatat non proident,
+                      sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
 
-
-            <div class="share-like-mp">
-              <img class="share-img" src="images/share.svg" alt="">
-              <img class="like-img"src="images/like.svg" alt="">
-            </div>
-            </div>
-              <div class="buttons">
-                <div class="more-slider">
-                  <p class="more-text">Детальніше</p>
+                  <div class="share-like-mp">
+                    <!-- <img class="share-img" src="images/share.svg" alt="">
+                    <img class="like-img"src="images/like.svg" alt=""> -->
+                    <img style="width: 35px; height: 35px;" class="share-img" src="images/share.svg" alt="">
+                    <img style="width: 35px; height: 35px;" class="like-img"src="images/likes.svg" alt="">
+                  </div>
+                  </div>
+                    <div class="buttons-slider">
+                      <div class="buy-slider">
+                        <p class="buy-text-mp">Детальніше</p>
+                      </div>
+                    </div>
                 </div>
               </div>
+            </div>
+            <div class="slider-placeholder">
+              <div class="slider-placeholder-photo">
+                <img style="width: 450px; height: 360px;"src="images\christ.jpg" alt="">
+              </div>
+              <div class="slider-placeholder-main">
+                <p class="main-theater-title-slider">Церква Воздвиження Чесного Хреста</p>
+                <div class="basic-placeholder-mp">
+                  <div class="text-box-mp">
+                    <p class="text-holder-slider">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Excepteur sint occaecat cupidatat non proident,
+                      sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+
+                  <div class="share-like-mp">
+                    <!-- <img class="share-img" src="images/share.svg" alt="">
+                    <img class="like-img"src="images/like.svg" alt=""> -->
+                    <img style="width: 35px; height: 35px;" class="share-img" src="images/share.svg" alt="">
+                    <img style="width: 35px; height: 35px;" class="like-img"src="images/likes.svg" alt="">
+                  </div>
+                  </div>
+                    <div class="buttons-slider">
+                      <div class="buy-slider">
+                        <p class="buy-text-mp">Детальніше</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-placeholder">
+              <div class="slider-placeholder-photo">
+                <img style="width: 450px; height: 360px;"src="images\christ.jpg" alt="">
+              </div>
+              <div class="slider-placeholder-main">
+                <p class="main-theater-title-slider">Церква Воздвиження Чесного Хреста</p>
+                <div class="basic-placeholder-mp">
+                  <div class="text-box-mp">
+                    <p class="text-holder-slider">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Excepteur sint occaecat cupidatat non proident,
+                      sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+
+                  <div class="share-like-mp">
+                    <!-- <img class="share-img" src="images/share.svg" alt="">
+                    <img class="like-img"src="images/like.svg" alt=""> -->
+                    <img style="width: 35px; height: 35px;" class="share-img" src="images/share.svg" alt="">
+                    <img style="width: 35px; height: 35px;" class="like-img"src="images/likes.svg" alt="">
+                  </div>
+                  </div>
+                    <div class="buttons-slider">
+                      <div class="buy-slider">
+                        <p class="buy-text-mp">Детальніше</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
           </div>
 
-      </div> -->
+      </div>
       <div class="main-theater">
         <div class="main-theater-background">
           <div class="main-theater-overlay"></div>
@@ -127,6 +259,109 @@
       </div>
 
       <div class="main-events">
+<p class="main-slider-title">Події</p>
+<div class="slider">
+  <div class="basic-placeholder-min">
+    <div class="photo-holder-min">
+      <img class="photo-exc-min" src="https://via.placeholder.com/200" alt="">
+    </div>
+    <div class="text-box-min-slider">
+      <p class="text-holder-min">Таємниці дрогобицької ратуші</p>
+    </div>
+    <div class="buttons-min-slider">
+      <!-- <div class="buy">
+        <p class="buy-text">Замовити</p>
+      </div> -->
+      <div class="like-min-slider">
+        <img class="like-img-min" src="images/like.png" alt="">
+      </div>
+      <div class="share-min-slider">
+        <img class="share-img-min" src="images/share2.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="basic-placeholder-min">
+    <div class="photo-holder-min">
+      <img class="photo-exc-min" src="https://via.placeholder.com/200" alt="">
+    </div>
+    <div class="text-box-min-slider">
+      <p class="text-holder-min">Таємниці дрогобицької ратуші</p>
+    </div>
+    <div class="buttons-min-slider">
+      <!-- <div class="buy">
+        <p class="buy-text">Замовити</p>
+      </div> -->
+      <div class="like-min-slider">
+        <img class="like-img-min" src="images/like.png" alt="">
+      </div>
+      <div class="share-min-slider">
+        <img class="share-img-min" src="images/share2.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="basic-placeholder-min">
+    <div class="photo-holder-min">
+      <img class="photo-exc-min" src="https://via.placeholder.com/200" alt="">
+    </div>
+    <div class="text-box-min-slider">
+      <p class="text-holder-min">Таємниці дрогобицької ратуші</p>
+    </div>
+    <div class="buttons-min-slider">
+      <!-- <div class="buy">
+        <p class="buy-text">Замовити</p>
+      </div> -->
+      <div class="like-min-slider">
+        <img class="like-img-min" src="images/like.png" alt="">
+      </div>
+      <div class="share-min-slider">
+        <img class="share-img-min" src="images/share2.png" alt="">
+      </div>
+    </div>
+  </div>
+      <div class="basic-placeholder-min">
+        <div class="photo-holder-min">
+          <img class="photo-exc-min" src="https://via.placeholder.com/200" alt="">
+        </div>
+        <div class="text-box-min-slider">
+          <p class="text-holder-min">Таємниці дрогобицької ратуші</p>
+        </div>
+        <div class="buttons-min-slider">
+          <!-- <div class="buy">
+            <p class="buy-text">Замовити</p>
+          </div> -->
+          <div class="like-min-slider">
+            <img class="like-img-min" src="images/like.png" alt="">
+          </div>
+          <div class="share-min-slider">
+            <img class="share-img-min" src="images/share2.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="basic-placeholder-min">
+        <div class="photo-holder-min">
+          <img class="photo-exc-min" src="https://via.placeholder.com/200" alt="">
+        </div>
+        <div class="text-box-min-slider">
+          <p class="text-holder-min">Таємниці дрогобицької ратуші</p>
+        </div>
+        <div class="buttons-min-slider">
+          <!-- <div class="buy">
+            <p class="buy-text">Замовити</p>
+          </div> -->
+          <div class="like-min-slider">
+            <img class="like-img-min" src="images/like.png" alt="">
+          </div>
+          <div class="share-min-slider">
+            <img class="share-img-min" src="images/share2.png" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- <img class="" style="height: 300px; width: 500px; margin: 5px;" src="https://via.placeholder.com/200" alt="">
+      <img class="" style="height: 300px; width: 500px; margin: 5px;" src="https://via.placeholder.com/200" alt="">
+      <img class="" style="height: 300px; width: 500px; margin: 5px;" src="https://via.placeholder.com/200" alt="">
+      <img class="" style="height: 300px; width: 500px; margin: 5px;" src="https://via.placeholder.com/200" alt="">
+      <img class="" style="height: 300px; width: 500px; margin: 5px;" src="https://via.placeholder.com/200" alt=""> -->
+</div>
       </div>
 
       <div class="description-text basic-exc-food"> <!-- Rework -->
@@ -140,7 +375,23 @@
     </div>
     <footer class="footer-exc">
       <div class="partners">
+        <p class="main-slider-title">Партнери</p>
+        <div class="main-exc">
+          <div class="gallery-st">
+            <div class="photo-gallery-st">
+              <img class="div-gal-st" src="images\drohHallspons.PNG" alt="">
+            </div>
 
+            <div class="photo-gallery-st">
+                <img class="div-gal-st" src="images\yourFMspons.jpg" alt="">
+            </div>
+
+            <div class="photo-gallery-st">
+                <img class="div-gal-st" src="images\mediaDrohspons.png" alt="">
+            </div>
+
+          </div>
+        </div>
       </div>
     </footer>
   </body>
