@@ -1717,7 +1717,7 @@ margin-top: 10px;
   }
 
   .basic-exc {
-    width: 720px;
+    width: 100%;
   }
 
   .basic-exc-food {
@@ -1726,7 +1726,7 @@ margin-top: 10px;
   }
 
   .basic-placeholder {
-    width: 360px;
+    width: 100%;
   }
 
   .basic-placeholder-min {
