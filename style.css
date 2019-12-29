@@ -1594,6 +1594,14 @@ margin-top: 10px;
 
 @media (max-width: 600px) {
 
+  .slider2 {
+    width: 500px;
+  }
+
+  .slider-placeholder-img {
+      width: 350px;
+    }
+
   .slider2 .slick-list {
     padding-top: 0!important;
     padding-bottom: 0!important;
@@ -1602,7 +1610,7 @@ margin-top: 10px;
   }
 
   .slider2 .slick-slide {
-    left: 100px;
+    left: 15px;
     right: 0;
   }
 
