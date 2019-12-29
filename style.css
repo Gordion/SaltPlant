@@ -357,6 +357,8 @@ margin-left: 10px;
   perspective: 100px;
 }
 
+
+
 .slider2 .slick-slide {
   position: absolute;
   top: 0;
@@ -1592,14 +1594,18 @@ margin-top: 10px;
 }
 
 
-@media (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 600px) {
+
+  .slider2 .slick-track {
+    width: 600px;
+  }
 
   .slider2 {
-    width: 500px;
+    width: 100vw;
   }
 
   .slider-placeholder-img {
-      width: 350px;
+      width: 100vw;
     }
 
   .slider2 .slick-list {
@@ -1610,20 +1616,21 @@ margin-top: 10px;
   }
 
   .slider2 .slick-slide {
-    left: 15px;
+    left: 100px;
     right: 0;
   }
 
   .slider2 .slider-placeholder {
-    width: 600px;
+    width: 100vw;
   }
 
   .slider2 .slick-prev {
     left: 50px;
+    z-index: 1;
   }
 
   .slider2 .slick-next {
-    right: 600px;
+    right: 15px;
   }
 
   .slider2 .slick-sprev {
