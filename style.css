@@ -1594,14 +1594,14 @@ margin-top: 10px;
 }
 
 
-@media (min-width: 320px) and (max-width: 600px) {
+@media (max-width: 600px) {
 
   .slider2 .slick-track {
     width: 600px;
   }
 
   .slider2 {
-    width: 100vw;
+    width: 400px!important;
   }
 
   .slider-placeholder-img {
