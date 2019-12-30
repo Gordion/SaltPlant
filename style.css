@@ -1596,6 +1596,10 @@ margin-top: 10px;
 
 @media (max-width: 600px) {
 
+  .slider .slick-dots {
+    bottom: -30%;
+  }
+
   .slider2 .slick-track {
     width: 600px;
   }
@@ -1649,10 +1653,14 @@ margin-top: 10px;
     display: block!important;
   }
 
+  /* .text-box-mp {
+    line-break: loose;
+  } */
+
   .main-theater-background {
     background-image: url(images/illustration-mob.jpg);
     height: 410px;
-    width: 480px;
+    /* width: 480px; */
     margin-top: 300px;
   }
 
@@ -1661,6 +1669,10 @@ margin-top: 10px;
     left: 10px;
     top: 50px;
 
+  }
+
+  .basic-placeholder-mp {
+    width: auto;
   }
 
   .main-theater-overlay {
