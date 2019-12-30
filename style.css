@@ -1178,10 +1178,12 @@ margin-top: 10px;
 
 .slider2 .slick-prev {
   left: 50px;
+  z-index: 1;
 }
 
 .slider2 .slick-next {
   right: 250px;
+  z-index: 2;
 }
 
   .main-theater-mp {
@@ -1280,10 +1282,12 @@ margin-top: 10px;
 
   .slider2 .slick-prev {
     left: 50px;
+    z-index: 1;
   }
 
   .slider2 .slick-next {
     right: 250px;
+    z-index: 2;
   }
 
   .slider2 .slick-sprev {
@@ -1424,16 +1428,21 @@ margin-top: 10px;
     right: 0;
   }
 
+  .slider2 {
+    width: 600px!important;
+  }
+
   .slider2 .slider-placeholder {
-    width: 600px;
+    width: 500px!important;
   }
 
   .slider2 .slick-prev {
-    left: 50px;
+    left: 25px;
+    z-index: 1;
   }
 
   .slider2 .slick-next {
-    right: 600px;
+    z-index: 2;
   }
 
   .slider2 .slick-sprev {
@@ -1589,19 +1598,25 @@ margin-top: 10px;
     width: 205px;
   }
 
-
+.basic-placeholder-mp {
+  width: 100%;
+}
 
 }
 
 
 @media (max-width: 600px) {
 
+  .basic-placeholder-mp {
+    width: 100%;
+  }
+
   .slider .slick-dots {
     bottom: -30%;
   }
 
   .slider2 .slick-track {
-    width: 600px;
+    width: 600px!important;
   }
 
   .slider2 {
@@ -1626,6 +1641,7 @@ margin-top: 10px;
 
   .slider2 .slider-placeholder {
     width: 100vw;
+    left: -5%;
   }
 
   .slider2 .slick-prev {
@@ -1635,6 +1651,7 @@ margin-top: 10px;
 
   .slider2 .slick-next {
     right: 15px;
+    z-index: 2;
   }
 
   .slider2 .slick-sprev {
